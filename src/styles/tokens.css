@@ -1,0 +1,79 @@
+/* EmoSense design tokens (design package tokens.css; fonts are bundled via @fontsource, no remote import). */
+
+:root {
+  /* Фоны */
+  --bg-page: #0B1220;
+  --bg-sidebar: #111A2B;
+  --bg-toolbar: #111A2B;
+  --bg-panel: #152036;
+  --bg-panel-alt: #0F1828;
+  --bg-control: #1B2840;
+  --bg-active: #1E2D4A;
+  --bg-hover: #18243A;
+  --bg-dropdown: #22304A;
+  --bg-dropdown-item-hover: #2C3C5C;
+  --bg-video: #070C16;
+  --bg-video-stripe: #0A111E;
+  --bg-overlay: rgba(11, 18, 32, .85);
+  --bg-backdrop: rgba(4, 8, 16, .7);
+  --tag-muted: #3A4A66;
+
+  /* Границы */
+  --border: #26344F;
+  --border-subtle: #1E2B43;
+  --border-row: #1C2840;
+  --border-control: #2E3D5A;
+  --border-strong: #3A4C6C;
+
+  /* Текст */
+  --text-primary: #FFFFFF;
+  --text-body: #D3DAE6;
+  --text-secondary: #B4BFD1;
+  --text-muted: #8C99B0;
+  --link: #9DBDFF;
+  --link-hover: #C9DAFF;
+
+  /* Акцент */
+  --accent: #4C8DFF;
+  --focus-ring: #9DBDFF;
+
+  /* Статус потока */
+  --status-live: #3DD68C;
+  --status-connecting: #F5B544;
+  --status-offline: #8C99B0;
+  --live-badge: #FF5A5F;
+
+  /* Статусы решения */
+  --alert-bg: #FF8A3D;  --alert-fg: #0B1220;  --alert-panel-bg: #2A1E14;  --alert-soft-border: #8A5A3A;
+  --watch-bg: #3A2614;  --watch-fg: #FFB27A;
+  --abstain-bg: #26344F; --abstain-fg: #D3DAE6; --abstain-bar: #5A6A88;
+  --none-bg: #1E2B43;   --none-fg: #B4BFD1;
+  --positive-bg: #163329; --positive-fg: #8EE3BC;
+
+  /* Предупреждение */
+  --warn-bg: #2E2A16; --warn-border: #6B5A20; --warn-fg: #F5E3A8;
+
+  /* Типографика */
+  --font-sans: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --fs-h1: 22px; --fs-h2: 18px; --fs-h3: 16px;
+  --fs-body: 14px; --fs-small: 13px; --fs-caption: 12px; --fs-micro: 11px;
+  --lh: 1.45;
+
+  /* Отступы */
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-6: 24px;
+
+  /* Форма */
+  --radius: 0;
+
+  /* Тени — только для выпадающих меню и активных элементов */
+  --shadow-dropdown: 0 16px 40px rgba(0,0,0,.55), 0 2px 6px rgba(0,0,0,.4);
+  --shadow-active: 0 6px 18px rgba(0,0,0,.45);
+
+  /* Размеры */
+  --toolbar-h: 44px;
+  --control-h: 32px;
+  --row-min-h: 48px;
+  --banner-h: 32px;
+}
+
